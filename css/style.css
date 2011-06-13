@@ -1,0 +1,29 @@
+div#header{
+  background-color:#1E1B1A;
+  height:75px;
+}
+span.bloger_name{
+  margin:20px 100px;
+  float:left;
+  clear:both;
+  font-size:25px;
+  font-weight:bold;
+}
+span.bloger_name a{
+  color:white;
+  text-decoration:none;
+  padding:25px 25px 25px 25px;
+}
+div#nav{
+  margin-top:-20px;
+  background-color:#333;
+  height:25px;
+}
+div#nav ul li {
+  margin-left:75px;
+  float:left;
+  padding:5px;
+}
+a{
+  text-decoration:none;  
+}

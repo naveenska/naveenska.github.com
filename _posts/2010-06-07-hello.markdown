@@ -2,7 +2,4 @@
 layout: post
 title: Hi
 ---
-<ul style="margin-left:-30px;">
-<li style="float:left"> Home </li>
-<li style="float:left"> Blogs </li>
-</ul>
+
