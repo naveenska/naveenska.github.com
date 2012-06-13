@@ -1,29 +1,70 @@
-div#header{
-  background-color:#1E1B1A;
-  height:75px;
+body{
+  font-family:ubuntu;
 }
-span.bloger_name{
-  margin:20px 100px;
-  float:left;
-  clear:both;
-  font-size:25px;
-  font-weight:bold;
+
+.container {
+background: #FAFAFA;
+background: -moz-linear-gradient(#FAFAFA,#EAEAEA);
+background: -webkit-linear-gradient(#FAFAFA,#EAEAEA);
+position: relative;
+z-index: 10;
+border-bottom: 1px solid #CACACA;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4),0 0 10px rgba(0, 0, 0, 0.1);
+width: 920px;
+margin: 0 auto;
+border-radius:5px;
+height:50px;
 }
-span.bloger_name a{
-  color:white;
-  text-decoration:none;
-  padding:25px 25px 25px 25px;
+.clearfix {
+display: block;
 }
-div#nav{
-  margin-top:-20px;
-  background-color:#333;
-  height:25px;
+.clearfix::after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
 }
-div#nav ul li {
-  margin-left:75px;
-  float:left;
-  padding:5px;
+
+
+a { text-decoration:none;padding:5px;color:black;}
+
+#footer {
+background: #FAFAFA;
+background: -moz-linear-gradient(#FAFAFA,#EAEAEA);
+background: -webkit-linear-gradient(#FAFAFA,#EAEAEA);
+position: relative;
+bottom:0px;
+position:fixed;
+z-index: 10;
+border-bottom: 1px solid #CACACA;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4),0 0 10px rgba(0, 0, 0, 0.1);
 }
-a{
-  text-decoration:none;  
+
+.content{
+width: 920px;
+margin: 0 auto;
 }
+
+#content_inner{
+margin-top:15px;
+height:250px;
+}
+
+#left{
+float:left;
+width:255px;
+}
+#right{
+float:left;
+width:405px;
+padding-right:20px;
+}
+#junk{
+float:left;
+width:200px;
+border-left:1px solid #CACACA;
+margin-top:25px;
+}
+.section ul { list-style:none; }
+.section ul li { float:left; }
