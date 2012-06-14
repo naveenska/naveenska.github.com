@@ -66,5 +66,6 @@ width:200px;
 border-left:1px solid #CACACA;
 margin-top:25px;
 }
-.section ul { list-style:none; }
+.section {width:700px;height:60px;float:left;clear:both;}
+.section ul { float:left;list-style:none;padding:0px;clear:both;}
 .section ul li { float:left; }
